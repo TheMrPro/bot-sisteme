@@ -640,4 +640,4 @@ channel.guild.owner.send(`<@!${channelremover.id}>
   },Otime)
   });
 
-client.login('token');
+client.login(process.env.BOT_TOKEN);
